@@ -318,3 +318,21 @@ footer{
 nav{
   display: block;
 }
+
+@media print{
+  nav{
+  display: none;}
+
+  .buy{
+    display: none;
+  }
+
+  .wonders div{
+    display: none;
+  }
+
+  .this-week{
+    display: none;
+  }
+
+}
