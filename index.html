@@ -1,179 +1,224 @@
 <!DOCTYPE html>
-<html lang="en-ca"> <!-- Sets the language to Canadian English -->
+<html lang="en-ca">
 <head>
-  <meta charset="utf-8">
   <link href="css/main.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, intial-scale=1">
   <title>Museum of Antiquities</title>
+  <meta charset="utf-8">
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <header>
-    <h1><img src="images/logo.png" alt="Image">
-      <strong>Museum of Antiquities</strong>
-      <a href="#" <img src="http://placehold.it/50x50" alt="Image"></a>
-    </h1>
+  <header class="header1">
+    <img class="logo" src="images/logo.png" alt="">
+    <h1 class="title">Museum of Antiquities</h1>
+    <a href="#" class="buy">Buy</a>
+      <nav>
+        <ul class="nav">
+        <li><a href="#the-seven-wonders">The Seven Wonders</a></li>
+          <li><a href="#buy-tickets">Buy tickets</a></li>
+          <li><a href="#now-playing">Now playing</a></li>
+          <li><a href="#this-week">This week</a></li>
+        </ul>
+      </nav>
   </header>
 
-  <nav>
+    <div class="wonders">
+      <div class="panorama">
+        <h2 class="hero-banner-h2">The Seven Wonders of the Ancient World</h2>
+        <p>Remarkable constructions of classical antiquity almost completely lost in time.</p>
+      </div>
+    </div>
+
+  <main>
+    <h2 class="sws" id="the-seven-wonders">The Seven Wonders</h2>
+
+    <h3>Great Pyramid of Giza</h3>
+      <img src="images/Giza.png" alt="The Great Pyramid of Giza">
+      <dl>
+        <dt>Date of construction:</dt><dd>2584–2561 BC</dd>
+        <dt>Builders:</dt><dd>Egyptians</dd>
+        <dt>Location:</dt><dd>Giza Necropolis, Egypt</dd>
+      </dl>
+
+    <div class="learn">
+      <a href="https://en.wikipedia.org/wiki/Giza" class="button"><span class="content">Learn more about Giza</span></a>
+    </div>
+
+    <h3>Hanging Gardens of Babylon</h3>
+      <img src="images/Babylon.png" alt="…">
+      <dl>
+        <dt>Date of construction:</dt><dd> Circa 600 BC</dd>
+        <dt>Builders:</dt><dd> Babylonians</dd>
+        <dt>Location:</dt><dd> Nineveh, Iraq</dd>
+      </dl>
+
+    <div class="learn">
+      <a href="https://en.wikipedia.org/wiki/Hanging_Gardens_of_Babylon" class="button"><span class="content">Learn more about Giza</span></a>
+    </div>
+
+    <h3>Temple of Artemis</h3>
+      <img src="images/Artemis.png" alt="…">
+      <dl>
+        <dt>Date of construction:</dt><dd> Circa 550 BC</dd>
+        <dt>Builders:</dt><dd> Greeks</dd>
+        <dt>Location:</dt><dd> Selçuk, Turkey</dd>
+      </dl>
+    <div>
+
+    <div class="learn">
+      <a href="https://en.wikipedia.org/wiki/Temple_of_Artemis" class="button"><span class="content">Learn more about Giza</span></a>
+    </div>
+
+    <h3>Statue of Zeus at Olympia</h3>
+      <img src="images/Zeus.png" alt="…">
+      <dl>
+        <dt>Date of construction:</dt> <dd>435 BC</dd>
+        <dt>Builders:</dt> <dd>Greeks</dd>
+        <dt>Location:</dt> <dd>Olympia, Greece</dd>
+      </dl>
+
+    <div class="learn">
+      <a href="https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia" class="button"><span class="content">Learn more about Giza</span></a>
+    </div>
+
+    <h3>Mausoleum at Halicarnassus</h3>
+      <img src="images/Halicarnassus.png" alt="…">
+      <dl>
+        <dt>Date of construction:</dt><dd> 351 BC</dd>
+        <dt>Builders:</dt> <dd>Persians</dd>
+        <dt>Location:</dt> <dd>Bodrum, Turkey</dd>
+      </dl>
+
+    <div class="learn">
+      <a href="https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus" class="button"><span class="content">Learn more about Giza</span></a>
+    </div>
+
+    <h3>Colossus of Rhodes</h3>
+      <img src="images/Rhodes.png" alt="…">
+      <dl>
+        <dt>Date of construction:</dt><dd> 292–280 BC</dd>
+        <dt>Builders:</dt> <dd>Greeks</dd>
+        <dt>Location:</dt> <dd>Rhodes, Greece</dd>
+      </dl>
+
+    <div class="learn">
+      <a href="https://en.wikipedia.org/wiki/Colossus_of_Rhodes" class="button"><span class="content">Learn more about Giza</span></a>
+    </div>
+
+    <h3>Lighthouse of Alexandria</h3>
+      <img src="images/Alexandria.png" alt="…">
+      <dl>
+        <dt>Date of construction:</dt> <dd>Circa 280 BC</dd>
+        <dt>Builders:</dt> <dd>Ptolemaic Egyptians</dd>
+        <dt>Location:</dt> <dd>Alexandria, Egypt</dd>
+      </dl>
+
+    <div class="learn">
+      <a href="https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria" class="button"><span class="content">Learn more about Giza</span></a>
+    </div>
+
+    <h3 id="buy-tickets">Buy tickets</h3>
+
+    <p>Come explore the ancient wonders with our amazing teleportation technology that jumps you around the world.</p>
+
+    <a href="#" class="info-button-left"><span class="info-content-left">$15 for adults</span></a>
+    <a href="#" class="info-button-left"><span class="info-content-left">$5 for kids</span></a>
+
+    <h3>Become a member</h3>
+
+    <strong>Is one visit not enough?</strong>
+    <p>Join our yearly program for unlimited access.</p>
+
+    <a href="#" class="info-button-left"><span class="info-content-left">$99 for adults</span></a>
+    <a href="#" class="info-button-left"><span class="info-content-left">$39 for kids</span></a>
+
+    <h3>Now playing on the large screen</h3>
+      <img src="images/Atlantis.png" alt="…">
+
+    <h4>Atlantis: Why we’re so mysterious</h4>
+    <p>From allegory to fiction to mystery</p>
+
+    <a href="#See Show Times" id="this-week">See show times</a>
+
+  <h2 id="now-playing">This week at the museum</h2>
+  <div class="schedule">
     <ol>
-      <li><a href="#Seven-Wonders">Seven Wonders</a></li>
-      <li><a href="#Buy">Buy Tickets</a></li>
-      <li><a href="#Playing">Now Playing</a></li>
-      <li><a href="#ThisWeek">This Week</a></li>
+      <li>
+        <ul>
+          <li><h3>Saturday & Sunday</h3></li>
+          <li><strong>Atlantis city tours</strong></li>
+          <li><strong>Underwater explorer:</strong> see outside the bubble</li>
+        </ul>
+      </li>
+
+      <li>
+        <ul>
+          <li><h3>Monday</h3></li>
+          <li><strong>Try this out:</strong> have fun building your own ancient wonder</li>
+          <li><strong>Amazing architecture:</strong> explore the science of how the pyramids were built</li>
+        </ul>
+      </li>
+
+      <li>
+        <ul>
+          <li><h3>Tuesday</h3></li>
+          <li><strong>Awesome art:</strong> witness art in action as a marble sculpture is born</li>
+          <li><strong>Gold rush:</strong> learn about the metal and why it was so coveted</li>
+        </ul>
+      </li>
+
+      <li>
+        <ul>
+          <li><h3>Wednesday</h3></li>
+          <li><strong>Try this out:</strong> wear clothes that the ancients wore</li>
+          <li><strong>Gardenology:</strong> learn to plant and maintain amazing gardens</li>
+        </ul>
+      </li>
+
+      <li>
+        <ul>
+          <li><h3>Thursday</h3></li>
+          <li><strong>Amazing architecture:</strong> explore the science of buildings</li>
+          <li><strong>Gardenology:</strong> the science behind trees and the environment</li>
+        </ul>
+      </li>
+
+      <li>
+        <ul>
+          <li><h3>Friday</h3></li>
+          <li><strong>Atlantis city tours</strong></li>
+          <li><strong>Awesome art:</strong> witness a full mosaic floor under construction</li>
+        </ul>
+      </li>
     </ol>
+  </div>
+  </main>
+<footer>
+  <p>© Museum of Antiquities</p>
+
+  <nav>
+    <ul class="footer">
+      <li><a href="#">hello@antiquities.museum</a></li>
+        <li><a href="#">1 888 000 1618</a></li>
+        <li><a href="#">Hours</a></li>
+        <li><a href="#">Directions</a></li>
+      </ul>
+    </nav>
+
+  <p>1618 Plato Blvd.</p>
+  <p>Atlantis, Atlantis, Atlantic Ocean</p>
+
+  <nav>
+    <ul class="footer">
+      <li><a href="#">Exhibits</a></li>
+      <li><a href="#">Collections</a></li>
+      <li><a href="#">Donors & sponsors</a></li>
+      <li><a href="#">Teacher information</a></li>
+      <li><a href="#">Birthday rentals</a></li>
+    </ul>
   </nav>
-
-  <img class="hero-image" src="images/Panorama.png" alt="">
-  <div class="text"><h1>The Seven Wonders of the Ancient World</h1><br>Remarkable
-    constructions of classical antiquity almost completely lost in time.</div>
-  <h2 id="Seven-Wonders">The Seven Wonders</h2>
-
-  <img class="wonder-images" src="images/Giza.png" alt="Image">
-  <h3>Great Pyramid of Giza</h3>
-  <dl>
-    <dt>Date of construction:<br> 2584–2561 BC</dt>
-    <dt>Builders:<br> Egyptians</dt>
-    <dt>Location:<br> Giza Necropolis, Egypt</dt>
-  </dl>
-  <a href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza" class="button"><span class="content">Learn more about Giza</span></a>
-
-
-  <img class="wonder-images" src="images/Babylon.png" alt="Image">
-  <h3>Hanging Gardens of Babylon</h3>
-  <dl>
-    <dt>Date of construction:<br> Circa 600 BC</dt>
-    <dt>Builders:<br> Babylonians</dt>
-    <dt>Location:<br> Nineveh, Iraq</dt>
-  </dl>
-  <a href="https://en.wikipedia.org/wiki/Hanging_Gardens_of_Babylon" class="button"><span class="content">Learn more about the Hanging Gardens</span></a>
-
-  <img class="wonder-images" src="images/Artemis.png" alt="Image">
-  <h3>Temple of Artemis</h3>
-  <dl>
-    <dt>Date of construction:<br> Circa 550 BC</dt>
-    <dt>Builders:<br> Greeks</dt>
-    <dt>Location:<br> Selçuk, Turkey</dt>
-  </dl>
-  <a href="https://en.wikipedia.org/wiki/Temple_of_Artemis" class="button"><span class="content">Learn more about the Temple of Artemis</span></a>
-
-  <img class="wonder-images" src="images/Zeus.png" alt="Image">
-  <h3>Statue of Zeus at Olympia</h3>
-  <dl>
-    <dt>Date of construction:<br> 435 BC</dt>
-    <dt>Builders:<br> Greeks</dt>
-    <dt>Location:<br> Olympia, Greece</dt>
-  </dl>
-  <a href="https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia" class="button"><span class="content">Learn more about the Statue</span></a>
-
-  <img class="wonder-images" src="images/Halicarnassus.png" alt="Image">
-  <h3>Mausoleum at Halicarnassus</h3>
-  <dl>
-    <dt>Date of construction:<br> 351 BC</dt>
-    <dt>Builders:<br> Persians</dt>
-    <dt>Location:<br> Bodrum, Turkey</dt>
-  </dl>
-  <a href="https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus" class="button"><span class="content">Learn more about the Mausoleum</span></a>
-
-  <img class="wonder-images" src="images/Rhodes.png" alt="Image">
-  <h3>Colossus of Rhodes</h3>
-  <dl>
-    <dt>Date of construction:<br> 292–280 BC</dt>
-    <dt>Builders:<br> Greeks</dt>
-    <dt>Location:<br> Rhodes, Greece</dt>
-  </dl>
-  <a href="https://en.wikipedia.org/wiki/Colossus_of_Rhodes" class="button"><span class="content">Learn more about Colossus</span></a>
-
-  <img class="wonder-images" src="images/Alexandria.png" alt="Image">
-  <h3>Lighthouse of Alexandria</h3>
-  <dl>
-    <dt>Date of construction:<br> Circa 280 BC</dt>
-    <dt>Builders:<br> Ptolemaic Egyptians</dt>
-    <dt>Location:<br> Alexandria, Egypt</dt>
-  </dl>
-  <a href="https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria" class="button"><span class="content">Learn more about the Lighthouse</span></a>
-
-  <h2>Buy Tickets</h2>
-  <p class="copy">Come explore the ancient wonders with our amazing teleportation technology that jumps you around the world.</p>
-  <a href="#" class="info-button-left"><span class="info-content-left">$15 for adults</span></a>
-  <a href="#" class="info-button-left"><span class="info-content-left">$5 for kids</span></a>
-
-  <h2 id="Buy">Become A Member</h2>
-  <p class="copy"><strong>Is one visit not enough?</strong><br>Join our yearly program for unlimited access.</p>
-  <a href="#" class="info-button-left"><span class="info-content-left">$99 for adults</span></a>
-  <a href="#" class="info-button-left"><span class="info-content-left">$39 for kids</span></a>
-
-  <div class="divide-bar">
-  </div>
-  <div class="text-banner">
-    <h2 id="Playing">Now playing on the large screen<h2>
-  </div>
-
-  <img class="hero-image-2" src="images/Atlantis.png" alt="">
-  <div class="text-2"><h2>Atlantis:</h2><br>Why we’re so mysterious From allegory to fiction to mystery</div>
-
-<h2 id="ThisWeek">This week at the museum</h2>
-  <ol>
-    <li>
-      <h3>Saturday & Sunday</h3>
-        <ul>
-          <li>Atlantis city tours</li>
-          <li>Underwater explorer: see outside the bubble</li>
-        </ul>
-    </li>
-    <li>
-      <h3>Monday</h3>
-        <ul>
-          <li>Try this out: have fun building your own ancient wonder</li>
-          <li>Amazing architecture: explore the science of how the pyramids were built</li>
-        </ul>
-    </li>
-    <li>
-      <h3>Tuesday</h3>
-        <ul>
-          <li>Awesome art: witness art in action as a marble sculpture is born</li>
-          <li>Gold rush: learn about the metal and why it was so coveted</li>
-        </ul>
-    </li>
-    <li>
-      <h3>Wednesday</h3>
-        <ul>
-          <li>Try this out: wear clothes that the ancients wore</li>
-          <li>Gardenology: learn to plant and maintain amazing gardens</li>
-        </ul>
-    </li>
-    <li>
-      <h3>Thursday</h3>
-        <ul>
-          <li>Amazing architecture: explore the science of buildings</li>
-          <li>Gardenology: the science behind trees and the environment</li>
-        </ul>
-    </li>
-    <li>
-      <h3>Friday</h3>
-        <ul>
-          <li>Atlantis city tours</li>
-          <li>Awesome art: witness a full mosaic floor under construction</li>
-        </ul>
-    </li>
+</footer>
 
 </body>
-
-<footer>
-  <p>© Museum of Antiquities
-<a href="#">hello@antiquities.museum</a>
-<a href="#">1 888 000 1618</a>
-<a href="#">Hours</a>
-<a href="#">Directions</a>
-
-1618 Plato Blvd.
-Atlantis, Atlantis, Atlantic Ocean
-
-<a href="#">Exhibits</a>
-<a href="#">Collections</a>
-<a href="#">Donors & sponsors</a>
-<a href="#">Teacher information</a>
-<a href="#">Birthday rentals</a>
-</p>
-
-</html>
