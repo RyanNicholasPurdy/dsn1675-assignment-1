@@ -180,14 +180,9 @@ main {
     line-height: 1.5;
   }
 
-  .header1{
-    float:left;
-    width: 30%
-}
-
   main {
   float: right;
-  width: 70%
+  width: 100%
 }
 
   .nav li {
@@ -215,7 +210,7 @@ main {
 
   .wonders div {
   float:right;
-  width:70%;
+  width:100%;
 }
 
 }
@@ -345,4 +340,9 @@ nav{
     display: none;
   }
 
+}
+
+.wrapper{
+  max-width: 80em;
+  margin: 0 auto;
 }
